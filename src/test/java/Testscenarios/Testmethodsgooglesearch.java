@@ -16,7 +16,7 @@ public class Testmethodsgooglesearch {
   public void beforetest() {
 	  WebDriverManager.chromedriver().setup();
 	  driver = new ChromeDriver();
-	  driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+	  driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	  driver.get("https://www.google.co.in");
 	  
 	  
